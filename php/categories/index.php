@@ -11,7 +11,7 @@ $category = new CategoryRepository($db);
 switch($_SERVER["REQUEST_METHOD"]) {
     case "GET":
         $result = $category->getAll();
-        continue;
+        break;
 }
 
 
